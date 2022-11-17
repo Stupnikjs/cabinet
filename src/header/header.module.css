@@ -1,12 +1,13 @@
 :root{
-    --colorfilter: rgba(2, 2, 22, 0.3); 
+    --colorfilter: rgba(0, 0, 0, 0.4); 
     
 }
 
 .classheader{
     width: 100%;  
-    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)),  url("../images/pont.jpg");
-    background-color: grey;
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../images/pont.jpg") ;
+    backdrop-filter: brightness(10%);
+    opacity: 0.87; 
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -10,12 +10,16 @@ import urbanism from "../images/plan.jpg"
 import construction from "../images/construct.jpg"
 import {accompagne, expertise, figurecontainer, engagement} from "../sections/section.module.css"
 import Footer from "../footer/footer.js"
+import {mainheader} from "../header/header.module.css"
 
 
 const IndexPage = () => {
   return (
     <main className={main}>
-      <Header></Header>
+      <Header className={mainheader}>
+        <h1>HELTA AVOCAT</h1>
+        <h2>AVOCAT EN DROIT PUBLIC DES AFFAIRES </h2>
+      </Header>
       <Section className={accompagne}>
         <h2>Helta Avocat</h2>
         <p>Le Cabinet Helta Avocat accompagne l’ensemble des acteurs de l’aménagement 

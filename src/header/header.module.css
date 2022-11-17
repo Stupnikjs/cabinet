@@ -3,10 +3,10 @@
     
 }
 
-.classheader{
+.mainheader{
     width: 100%;  
     background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../images/pont.jpg") ;
-    backdrop-filter: brightness(10%);
+    
     opacity: 0.87; 
     background-size: cover;
     background-position: center;
@@ -15,4 +15,27 @@
     background-attachment: fixed;
 
 
+}
+
+
+.cabinetheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../images/toits.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.competencesheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../images/skyscraper.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

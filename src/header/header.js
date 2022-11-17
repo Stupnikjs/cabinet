@@ -1,17 +1,17 @@
 import * as React from 'react';
-import Navbar from './navbar';
-import {classheader} from "./header.module.css"
+import Navbar from './navbar'; 
 import Title from './title';
 
 
-const header = () => {
 
+const Header = ({children, className}) => {
+    console.log(children)
     return (
-        <div className={classheader}>
+        <div className={className}>
             <Navbar></Navbar>
-            <Title></Title>
+            <Title>{children}</Title>
         </div>
     );
 };
 
-export default header;
+export default Header;

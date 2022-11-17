@@ -1,0 +1,20 @@
+:root{
+    --navcolor: white; 
+    --navhover: rgb(170, 170, 101); 
+}
+
+.classnavbar{
+    display: flex;
+    gap: 4%;
+    padding-top: 2%;
+    color: var(--navcolor);
+    justify-content: center;
+
+}
+
+
+
+.link:hover{
+    color: var(--navhover);
+    cursor: pointer;
+}

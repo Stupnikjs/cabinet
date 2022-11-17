@@ -1,0 +1,18 @@
+:root{
+    --navcolor: white; 
+    --navhover: lightyellow; 
+}
+
+
+.classnavbar{
+    display: flex;
+    gap: 4%;
+    padding-top: 2%;
+    color: var(--navcolor);
+    justify-content: center;
+
+}
+
+.classnavbar:hover{
+    color: var(--navhover);
+}

@@ -11,6 +11,7 @@ import Section from '../sections/section';
 import Header from "../header/header"
 import {cabinetheader} from "../header/header.module.css"
 import photohelene from "../images/photohelene.jpg"
+import Footer from '../footer/footer';
 
 const cabinet = () => {
     return (
@@ -29,6 +30,7 @@ const cabinet = () => {
 
                 </div>
             </Section>
+            <Footer></Footer>
         </main>
     );
 };

@@ -39,3 +39,14 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.honorairesheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../images/sign.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

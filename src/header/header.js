@@ -1,15 +1,15 @@
 import * as React from 'react';
 import Navbar from './navbar'; 
 import Title from './title';
+import {mtop10, mtop20} from "./title.module.css"
 
 
-
-const Header = ({children, className}) => {
-    console.log(children)
+const Header = ({children, className, margintop}) => {
+    
     return (
         <div className={className}>
             <Navbar></Navbar>
-            <Title>{children}</Title>
+            <Title className={margintop === "20" ? mtop20: mtop10}>{children}</Title>
         </div>
     );
 };

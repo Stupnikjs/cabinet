@@ -38,23 +38,27 @@
 
 .expertise > h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 3%;
+    
 }
 
 .expertise > p {
+    
     width: 60%;
     margin: auto;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 
 .figurecontainer{
+    
     display: grid;
     max-width: 700px;
-    gap: 3%;
-    width: 50%;
-    height: 50%;
+    gap: 10px;
+    width: 50%; 
     margin: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -68,6 +72,8 @@
 }
 .figurecontainer > figure {
     margin: 0;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     border: 2px solid transparent;
 }
@@ -78,6 +84,7 @@
 
 .figurecontainer > figure > figcaption{
     text-align: center;
+    font-size: 0.9rem;
 }
 
 .engagement{

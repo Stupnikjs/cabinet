@@ -1,10 +1,10 @@
 import React from 'react';
-import {classtitle} from "./title.module.css"
 
 
-const title = ({children}) => {
+
+const title = ({className, children}) => {
     return (
-        <div className={classtitle}>
+        <div className={className}>
             {children}
         </div>
     );

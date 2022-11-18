@@ -10,9 +10,19 @@
     padding-top: 2%;
     color: var(--navcolor);
     justify-content: center;
+   
 
 }
 
-.classnavbar:hover{
+
+
+
+.link{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white
+}
+
+.link:hover{
     color: var(--navhover);
 }

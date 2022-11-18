@@ -16,7 +16,7 @@ import {mainheader} from "../header/header.module.css"
 const IndexPage = () => {
   return (
     <main className={main}>
-      <Header className={mainheader}>
+      <Header margintop={"20"} className={mainheader}>
         <h1>HELTA AVOCAT</h1>
         <h2>AVOCAT EN DROIT PUBLIC DES AFFAIRES </h2>
       </Header>

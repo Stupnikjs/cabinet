@@ -3,6 +3,7 @@
 :root{
     --colorfilter: rgba(19, 12, 102, 0.5); 
     --mainFont: "EB Garamond", serif;  /* "Arial"*/
+    --shaddowHeader: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
     
 }
 
@@ -19,7 +20,8 @@
     filter: brightness(90%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--mainFont)
+    font-family: var(--mainFont); 
+    box-shadow: var(--shaddowHeader); 
 
 
 }
@@ -37,7 +39,8 @@
     height: 50vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--mainFont)
+    font-family: var(--mainFont); 
+    box-shadow: var(--shaddowHeader); 
 }
 
 .competencesheader{
@@ -49,7 +52,8 @@
     height: 50vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--mainFont)
+    font-family: var(--mainFont); 
+    box-shadow: var(--shaddowHeader); 
 }
 
 .honorairesheader{
@@ -60,7 +64,8 @@
     height: 50vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--mainFont)
+    font-family: var(--mainFont); 
+    box-shadow: var(--shaddowHeader); 
 }
 .contactheader{
     width: 100%;  
@@ -71,7 +76,8 @@
     height: 50vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: var(--mainFont)
+    font-family: var(--mainFont); 
+    box-shadow: var(--shaddowHeader); 
 }
 
 
@@ -84,6 +90,7 @@
     .mainheader{
         display: flex;
         flex-direction: column;
+        
     }
 
 

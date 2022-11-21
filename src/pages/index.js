@@ -1,16 +1,16 @@
 import * as React from "react"
-import Header from "../header/header"
+import Header from "../components/header/header"
 import {main} from "./index.module.css"
 import "../style/main.css"
-import Section from "../sections/section"
+import Section from "../components/sections/section"
 import colaborate from "../images/work.jpg"
 import administration from "../images/administration.png"
 import commandepublic from "../images/public.jpg"
 import urbanism from "../images/plan.jpg"
 import construction from "../images/construct.jpg"
-import {accompagne, expertise, figurecontainer, engagement} from "../sections/section.module.css"
-import Footer from "../footer/footer.js"
-import {mainheader} from "../header/header.module.css"
+import {accompagne, expertise, figurecontainer, engagement} from "../components/sections/section.module.css"
+import Footer from "../components/footer/footer.js"
+import {mainheader} from "../components/header/header.module.css"
 
 
 const IndexPage = () => {

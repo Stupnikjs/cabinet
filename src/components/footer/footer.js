@@ -17,7 +17,7 @@ const footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3>Competences</h3>
+                        <h3>Compétences</h3>
                         <ul>
                             <li>Droit administratif</li>
                             <li>Droit de la commande publique </li>

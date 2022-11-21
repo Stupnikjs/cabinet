@@ -1,7 +1,7 @@
 import * as React from 'react';
-import {competencesheader} from '../header/header.module.css'
+import {competencesheader} from '../components/header/header.module.css'
 import {classcompetences} from './competences.module.css'
-import Header from '../header/header';
+import Header from '../components/header/header';
 
 const competences = () => {
     return (

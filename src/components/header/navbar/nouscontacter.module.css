@@ -1,0 +1,38 @@
+.classnouscontacter{
+    text-align: center;
+    height: 20%;
+    margin-right: -10%;
+    text-decoration: none;
+    background-color: lightgrey;
+    border: none;
+    padding: .6% 1.2%;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    font-family: var(--mainFont);
+
+}
+
+
+
+
+.classnouscontacter::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: lightyellow;
+    z-index: -1;
+    border-radius: 20px;
+
+}
+
+
+
+.classnouscontacter:hover.classnouscontacter::after{ 
+    opacity: 1;
+    
+}

@@ -1,0 +1,36 @@
+:root{
+    --navcolor: white; 
+    --navhover: lightyellow; 
+}
+
+
+.classnavbar{
+ 
+    display: flex;
+    gap: 2%;
+    width: 70%;
+    padding-top: 2%;
+    color: var(--navcolor);
+    justify-content: center;
+    margin: auto;
+    
+    
+
+}
+
+
+@media (max-width: 700px) {
+    
+
+    .classnavbar{
+        flex-direction: column;
+        gap: 0%; 
+        height: 60%;
+        order: 2;
+        margin-top: 10%;
+    }
+
+
+}
+
+

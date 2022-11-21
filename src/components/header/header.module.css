@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@500&display=swap');
+
+:root{
+    --colorfilter: rgba(19, 12, 102, 0.5); 
+    --mainFont: "EB Garamond", serif;  /* "Arial"*/
+    
+}
+
+
+
+.mainheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/pont.jpg") ; 
+    opacity: 0.95; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*filter: contrast(70%);*/
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--mainFont)
+
+
+}
+
+
+
+
+
+.cabinetheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/toits.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--mainFont)
+}
+
+.competencesheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/skyscraper.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--mainFont)
+}
+
+.honorairesheader{
+    width: 100%;  
+    background-image: url("../../images/sign.jpg") ; /*  linear-gradient(to bottom, var(--colorfilter), var(--colorfilter))*/
+    background-size: cover;
+    background-position: bottom; 
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--mainFont)
+}
+.contactheader{
+    width: 100%;  
+    background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/contact.jpg") ;
+    opacity: 0.87; 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--mainFont)
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    
+    
+    .mainheader{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

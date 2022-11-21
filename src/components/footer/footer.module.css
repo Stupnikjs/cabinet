@@ -1,7 +1,9 @@
 .classfooter{
     height: 90vh;
+    width: 100%;
     background-color: rgb(48, 48, 131);
     color: rgb(247, 246, 210);
+    font-family: var(--mainFont);
 }
 
 .classfooter > h1 {
@@ -14,7 +16,8 @@
 .footercontainer{
      
     display: flex;
-    width: 80%;
+    width: 100%;
+    flex-wrap: wrap;
     margin: auto;
     gap: 5%;
     font-size: 1.2rem;

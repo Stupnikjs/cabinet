@@ -8,7 +8,7 @@ const contact = () => {
     return (
         <div>
             <main  className={classcontact}>
-                <Header  className={contactheader}><h1>Contact</h1></Header>
+                <Header  main={false} className={contactheader}><h1>Contact</h1></Header>
                 <Section>
                     <div>
                         <h2>

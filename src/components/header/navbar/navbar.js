@@ -1,22 +1,21 @@
 import React from 'react';
-import {classnavbar} from "./navbar.module.css"
+import {mainnavbar, secondnavbar} from "./navbar.module.css"
 import Navlink from './navlink';
 import Nouscontacter from './nouscontacter';
 
 
 const cabinetItems = ['Axel Bertrand', 'Helene Saunois']
 
-const navbar = () => {
+const navbar = ({main}) => {
     
 
     return (
-        <div className={classnavbar}>
+        <div className={main ? mainnavbar: secondnavbar}>
             <Navlink to="/" >Acceuil</Navlink>
             <Navlink to="/cabinet" items={cabinetItems}>Le Cabinet</Navlink>
             <Navlink to="/competences">Competences</Navlink>
             <Navlink to="/honoraires">Honoraires</Navlink>
             <Navlink to="/contact">Contact</Navlink>
-            <Navlink></Navlink>
             <Nouscontacter></Nouscontacter>
         </div>
     );

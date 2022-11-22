@@ -36,12 +36,14 @@
     opacity: 0.87; 
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: var(--mainFont); 
     box-shadow: var(--shaddowHeader); 
 }
+
+
 
 .competencesheader{
     width: 100%;  
@@ -49,7 +51,7 @@
     opacity: 0.87; 
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: var(--mainFont); 
@@ -80,7 +82,13 @@
     box-shadow: var(--shaddowHeader); 
 }
 
+.backicon{
+    display: none;
+}
 
+.nobackicon{
+    display: none;
+}
 
 
 
@@ -93,5 +101,22 @@
         
     }
 
+    .backicon{
+        display: block; 
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    
 
+    .cabinetheader, .competencesheader,.honorairesheader, .contactheader {
+       height: 10vh;
+       position: relative;
+    }
+    
+    
+    
+  
 }

@@ -19,8 +19,8 @@ const Navlink = ({to, children, items}) => {
     }
 
     return (
-        <div className={divLink} onMouseOut={mouseOutHandler}>
-            <Link to={to} onMouseOver={hoverHandler}  className={classnavlink} >{children !== undefined ? children.toUpperCase():""}</Link>
+        <div  onMouseOver={hoverHandler}  onMouseOut={mouseOutHandler} className={divLink} >
+            <Link to={to}  className={classnavlink} >{children !== undefined ? children.toUpperCase():""}</Link>
             <div className={classDivLink}>
                 {classDivLink === hovered ? 
                         items !== undefined ? items.map((element) =>{ return <p>{element}</p> }): "" 

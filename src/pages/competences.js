@@ -6,7 +6,7 @@ import Header from '../components/header/header';
 const competences = () => {
     return (
             <main  className={classcompetences}>
-                <Header  className={competencesheader}><h1>Competences</h1></Header>
+                <Header  main={false} className={competencesheader}><h1>Competences</h1></Header>
             </main>
         
     );

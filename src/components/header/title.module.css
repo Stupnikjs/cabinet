@@ -1,3 +1,5 @@
+/* .mtop20 concerne la page d'acceuil */
+
 .mtop10{
     display: flex;
     justify-content: center;
@@ -36,11 +38,38 @@
         font-size: 1rem;
         display: block;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
-    .mtop10, .mtop20 h1, h2{
-        font-size: 1.1rem;
-        text-align: center;
+
+    .mtop10{
+        height: 100%;
     }
+    
+    .mtop20 h1{
+        margin : 0; 
+        font-size: 2.5rem;
+    }
+    .mtop20 h2{
+        margin : 0; 
+        font-size: 1rem;
+        
+    }
+
+
+    .mtop10 h1{
+        margin : 0; 
+        
+    }
+    
+    .mtop10 h2{
+        margin : 0; 
+    }
+
+    
+
     
 
 }

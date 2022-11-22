@@ -1,34 +1,47 @@
 :root{
-    --navcolor: white; 
-    --navhover: lightyellow; 
+    --navhover: rgb(197, 197, 176); 
+    --navBg: rgb(255, 255, 255); 
 }
 
 
-.classnavbar{
+.mainnavbar{
  
     display: flex;
     gap: 2%;
     width: 70%;
     padding-top: 2%;
-    color: var(--navcolor);
     justify-content: center;
     margin: auto;
-    
-    
+
+}
+.secondnavbar{
+    background-color: var(--navBg);
+    display: flex;
+    gap: 4%;
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
 
 }
 
 
 @media (max-width: 700px) {
     
-
-    .classnavbar{
+    .mainnavbar{
         flex-direction: column;
         gap: 0%; 
         height: 60%;
         order: 2;
         margin-top: 10%;
     }
+
+    .secondnavbar{
+        display: none;
+    }
+    
 
 
 }

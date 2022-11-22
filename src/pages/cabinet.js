@@ -15,7 +15,7 @@ import Footer from '../components/footer/footer'
 const cabinet = () => {
     return (
         <main  className={classcabinet}>
-            <Header  className={cabinetheader}><h1>Le Cabinet</h1></Header>
+            <Header  main={false} className={cabinetheader}><h1>Le Cabinet</h1></Header>
             <Section className={helenesection}>
                 <div className={helenecontainer}>
                     <img  className={classphotohelene} src={photohelene} alt="helene" />

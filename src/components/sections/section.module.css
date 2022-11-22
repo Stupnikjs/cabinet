@@ -5,7 +5,7 @@
 
 .accompagne{
     height: 100vh;
-    background-color: rgb(248, 242, 233);
+    background: linear-gradient(to right,  white , grey);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +33,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: azure;
+    background: linear-gradient(to left,  white , rgb(228, 248, 192));
     box-shadow: var(--sectionshaddow) ;
     font-family: var(--mainFont);
 }
@@ -91,7 +91,7 @@
 .engagement{
     text-align: center;
     height: 100vh;
-    background-color: beige;
+    background-color: rgb(189, 189, 172);
     display: flex;
     gap: 4%; 
     flex-direction: column;

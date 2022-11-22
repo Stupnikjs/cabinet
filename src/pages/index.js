@@ -16,19 +16,19 @@ import {mainheader} from "../components/header/header.module.css"
 const IndexPage = () => {
   return (
     <main className={main}>
-      <Header margintop={"20"} className={mainheader}>
-        <h1>HELTA AVOCAT</h1>
-        <h2>AVOCAT EN DROIT PUBLIC DES AFFAIRES </h2>
+      <Header main={true} margintop={"20"} className={mainheader}>
+        <h1>ASTEN AVOCATS</h1>
+        <h2>AVOCATS EN DROIT PUBLIC DES AFFAIRES </h2>
       </Header>
       <Section className={accompagne}>
-        <h2>Helta Avocat</h2>
-        <p>Le Cabinet Helta Avocat accompagne l’ensemble des acteurs de l’aménagement 
+        <h2>Asten Avocats</h2>
+        <p>Le Cabinet Asten Avocats accompagne l’ensemble des acteurs de l’aménagement 
           et de la construction tant pour le conseil juridique que pour l’assistance lors d’expertises et de négociations ou pour le contentieux.</p>
         <img src={colaborate} alt="colaborate" />
       </Section>
       <Section className={expertise}>
         <h3>Nos domaines d’expertise</h3>
-        <p>Le Cabinet Helta Avocat est un cabinet spécialisé en droit public des affaires (droit administratif, droit de la commande publique, 
+        <p>Le Cabinet Asten Avocats est un cabinet spécialisé en droit public des affaires (droit administratif, droit de la commande publique, 
           droit de l’urbanisme et de l’aménagement). 
         </p>  
         <p>Le Cabinet intervient également en droit privé, principalement en droit de la construction.</p> 

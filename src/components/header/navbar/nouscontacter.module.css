@@ -6,6 +6,7 @@
     text-decoration: none;
     background-color: lightgrey;
     border: none;
+    height: 8%;
     border-radius: 20px;
     position: relative;
     z-index: 1;

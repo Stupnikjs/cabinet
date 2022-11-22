@@ -4,6 +4,13 @@
 }
 
 
+/* navbar sur la page main/index 
+*
+* pas de background-color 
+*
+*/
+
+
 .mainnavbar{
  
     display: flex;
@@ -14,16 +21,23 @@
     margin: auto;
 
 }
+
+
+/* navbar sur toutes les autres pages */
+
+
+
 .secondnavbar{
+    position: absolute;
+    top: 0;
     background-color: var(--navBg);
-    display: flex;
-    gap: 4%;
+    display: grid;
+    gap: 0%;
     width: 100%;
     height: 8%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    color: white;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5, 1fr);
+   /* grid-template-rows: 20% 1fr;*/
 
 }
 
@@ -32,10 +46,11 @@
     
     .mainnavbar{
         flex-direction: column;
-        gap: 0%; 
-        height: 60%;
+        gap: 5%; 
+        height: 70%;
         order: 2;
         margin-top: 10%;
+        padding: 0;
     }
 
     .secondnavbar{

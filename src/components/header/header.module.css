@@ -132,7 +132,8 @@
     .mainheader{
         display: flex;
         flex-direction: column;
-        
+        background-attachment: local;
+        background-image: url("../../images/pont.jpg") ; 
     }
 
     .backicon{

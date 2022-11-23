@@ -1,5 +1,5 @@
 ::root{
-    --fontlink: rgb(177, 151, 151); 
+    --fontlink: rgb(177, 151, 151);
 }
 
 /* classe du component navlink basique */
@@ -12,15 +12,29 @@
     align-items: center;
 }
 
+
+
 .classnavlink{
     margin-top: 5% ; 
     grid-row: 1;
-    display: inline;
+    width: 80%;
+    display: flex;
+    justify-content: center;
     color: var(--fontlink);
     text-decoration: none;
     margin-bottom: 5%;
 
 
+}
+
+.classnavlink > h2{
+    margin: 0;
+    font-size: .9rem;
+}
+
+
+.classnavlink:hover h2{
+    color: rgb(247, 233, 112);
 }
 
 
@@ -29,7 +43,7 @@
     height: 15%;
     display: block;
     font-size: 1.2rem;
-    margin-top: 10%;
+    margin-top: 15%;
     position: relative;
     z-index: 1;
 }
@@ -55,19 +69,26 @@
     opacity: 1;
 }
 
-.hovered{
+
+.dropDownIcon{
+    display: inline-block;
+    margin-left: 10% ;
+    margin-top: 2%;
+}
+
+.dropped{
     display: block;
     background-color: rgba(255,255,255, 0.6);
     height: 30vh;
-    width: 60%;
+    width: 70%;
     transition: transform 1s;
-    transform: translateY(5.6%);
+    transform: translateY(-2%);
    
 }
 
 
 
-.mainhovered{
+.maindropped{
     display: block;
     background-color: rgba(189, 169, 169, 0.6);
     height: 30vh;
@@ -75,11 +96,11 @@
 }
 
 
-.nothovered{
+.notdropped{
     display: block;
     background-color: transparent; 
     height: 30vh;
-    transform: translateY(-20%);
+    transform: translateY(-10%);
 }
 
 
@@ -107,10 +128,10 @@
         flex: 1;
     }
 
-    .hovered{
+    .dropped{
         display: none;
     }
-    .nothovered{
+    .notdropped{
        display: none;
     }
 

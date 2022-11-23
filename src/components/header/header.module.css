@@ -114,6 +114,10 @@
     box-shadow: var(--shaddowHeader); 
 }
 
+.navandcontact{
+    display: flex;
+}
+
 /* retour page precedente en responsive */
 
 .backicon{
@@ -130,8 +134,9 @@
     
     
     .mainheader{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-auto-flow: row ;
+        grid-template-rows: 1% 19% 80%;
         background-attachment: local;
         background-image: url("../../images/pont.jpg") ; 
     }

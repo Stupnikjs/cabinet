@@ -19,9 +19,11 @@
     width: 80%;
     min-width: 700px;
     padding-top: 2%;
-    margin: auto;
 
 }
+
+
+
 
 
 /* navbar sur toutes les autres pages */
@@ -47,6 +49,7 @@
     
     .mainnavbar{
         display: flex;
+        margin: auto;
         flex-direction: column;
         gap: 1%; 
         height: 70%;

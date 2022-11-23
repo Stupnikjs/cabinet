@@ -16,6 +16,7 @@
     margin-top: 5% ; 
     grid-row: 1;
     display: inline;
+    color: var(--fontlink);
     text-decoration: none;
     margin-bottom: 5%;
 
@@ -23,12 +24,54 @@
 }
 
 
+.droplink{
+    text-decoration: none;
+    height: 15%;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.droplink::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    background-color: bisque;
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+}
+
+
+
+.droplink:hover.droplink::after{
+    opacity: 1;
+}
 
 .hovered{
     display: block;
-    background-color: white;
+    background-color: rgba(255,255,255, 0.6);
     height: 30vh;
-    
+    width: 60%;
+    transition: transform 1s;
+    transform: translateY(5.6%);
+   
+}
+
+
+
+.mainhovered{
+    display: block;
+    background-color: rgba(189, 169, 169, 0.6);
+    height: 30vh;
+    width: 80%;
 }
 
 
@@ -36,6 +79,7 @@
     display: block;
     background-color: transparent; 
     height: 30vh;
+    transform: translateY(-20%);
 }
 
 
@@ -50,7 +94,6 @@
     
     .divLink{
         display: flex;
-        
         flex-direction: row;  
         align-items: center;
     }

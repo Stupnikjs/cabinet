@@ -1,4 +1,4 @@
-/* .mtop20 concerne la page d'acceuil */
+
 
 .mtop10{
     display: flex;
@@ -10,6 +10,10 @@
     font-size: 1.5rem;
     
 }
+
+
+/* .mtop20 concerne la page d'acceuil */
+
 .mtop20{
     display: flex;
     margin-top: 15%;

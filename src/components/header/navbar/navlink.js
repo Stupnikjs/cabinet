@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import {divLink, classnavlink, hovered, nothovered} from './navlink.module.css'
+import {divLink, classnavlink, hovered,mainhovered, nothovered, droplink} from './navlink.module.css'
 
 
-const Navlink = ({to, children, items}) => {
+const Navlink = ({main, to, children, items}) => {
 
     const [classDivLink, setClassDivLink] = useState(nothovered)
 
 
     const hoverHandler = (e) => {
         e.preventDefault()
-        setClassDivLink(hovered)
+        main ? setClassDivLink(mainhovered) : setClassDivLink(hovered)
     }
 
     const mouseOutHandler = (e) => {
@@ -23,7 +23,7 @@ const Navlink = ({to, children, items}) => {
             <Link to={to}  className={classnavlink} >{children !== undefined ? children.toUpperCase():""}</Link>
             <div className={classDivLink}>
                 {classDivLink === hovered ? 
-                        items !== undefined ? items.map((element) =>{ return <p>{element}</p> }): "" 
+                        items !== undefined ? items.map((element) =>{ return <Link className={droplink} to={"#"}>{element}</Link> }): "" 
                         : ""}
             </div>
         </div>

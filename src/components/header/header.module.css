@@ -17,6 +17,10 @@
     background-position: center;
     height: 100vh;
     
+    /* cover pour les navigateurs */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     
     filter: brightness(90%);
     background-repeat: no-repeat;
@@ -37,6 +41,12 @@
     background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/toits.jpg") ;
     opacity: 0.87; 
     background-size: cover;
+
+    /* cover pour les navigateurs */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+
     background-position: center;
     height: 80vh;
     background-repeat: no-repeat;
@@ -53,6 +63,12 @@
     background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/skyscraper.jpg") ;
     opacity: 0.87; 
     background-size: cover;
+
+    /* cover pour les navigateurs */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+
     background-position: center;
     height: 80vh;
     background-repeat: no-repeat;
@@ -66,6 +82,12 @@
     width: 100%;  
     background-image: url("../../images/sign.jpg") ; /*  linear-gradient(to bottom, var(--colorfilter), var(--colorfilter))*/
     background-size: cover;
+    
+    /* cover pour les navigateurs */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    
     background-position: bottom; 
     height: 80vh;
     background-repeat: no-repeat;
@@ -79,6 +101,11 @@
     background-image: linear-gradient(to bottom, var(--colorfilter), var(--colorfilter)) , url("../../images/contact.jpg") ;
     opacity: 0.87; 
     background-size: cover;
+    
+    /* cover pour les navigateurs */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     background-position: center;
     height: 80vh;
     background-repeat: no-repeat;

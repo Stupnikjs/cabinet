@@ -11,11 +11,11 @@ const navbar = ({main}) => {
 
     return (
         <div className={main ? mainnavbar: secondnavbar}>
-            <Navlink to="/" >Acceuil</Navlink>
-            <Navlink to="/cabinet" items={["corine", "michel", "jean"]}>Le Cabinet</Navlink>
-            <Navlink to="/competences">Competences</Navlink>
-            <Navlink to="/honoraires">Honoraires</Navlink>
-            <Navlink to="/contact">Contact</Navlink>
+            <Navlink main={main} to="/" >Acceuil</Navlink>
+            <Navlink main={main}  to="/cabinet" items={["corine", "michel", "jean"]}>Le Cabinet</Navlink>
+            <Navlink main={main}  to="/competences">Competences</Navlink>
+            <Navlink main={main}  to="/honoraires">Honoraires</Navlink>
+            <Navlink main={main}  to="/contact">Contact</Navlink>
             <Nouscontacter></Nouscontacter>
         </div>
     );
